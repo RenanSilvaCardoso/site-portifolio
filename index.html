@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Renan</title>
     <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+
 <body>
     <header>
         <nav>
@@ -25,12 +31,12 @@
         <section id="inicio">
             <div class="container-inicio">
                 <div class="text-box">
-                    <p class="oi">OI, EU SOU O RENAN</p>
-                    <h1 class="dev">Desenvolvedor Frontend</h1>
-                    <p class="sobre-mim">mais de 8 meses de experiência como freelancer.</p>
+                    <p class="oi" data-aos="fade-right" data-aos-delay="500">OI, EU SOU O RENAN </p>
+                    <h1 class="dev" data-aos="zoom-in" data-aos-delay="500">Desenvolvedor Frontend</h1>
+                    <p class="sobre-mim" data-aos="fade-left" data-aos-delay="500">mais de 8 meses de experiência como freelancer.</p>
                 </div>
 
-                <div class="redes">
+                <div class="redes" data-aos="zoom-in" data-aos-delay="500">
                     <a href="https://github.com/RenanSilvaCardoso" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/renaxcardoso/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="./assets/Currículum Renan Silva Cardoso.pdf" download><i class="fa-solid fa-file"></i></a>
@@ -39,10 +45,10 @@
         </section>
 
         <section id="sobre">
-            <div class="sobre-titulo">
+            <div class="sobre-titulo" data-aos="zoom-in" data-aos-delay="300">
                 <h1>sobre</h1>
             </div>
-            <div class="container-sobre">
+            <div class="container-sobre" data-aos="zoom-in" data-aos-delay="300">
                 <div class="profile-img">
                     <img src="assets/profile.png" alt="Renan Cardoso">
                 </div>
@@ -55,11 +61,11 @@
         </section>
 
         <section id="projetos">
-            <div class="projetos-titulo">
+            <div class="projetos-titulo" data-aos="zoom-in">
                 <h1>projetos</h1>
             </div>
             <div class="container-projetos">
-                <div class="container-projeto">
+                <div class="container-projeto" data-aos="fade-right" data-aos-delay="500">
                     <div class="foto"><img src="assets/imagem-dispositivos.png" alt="Mockup Arthur Bezerra"></div>
                     <div class="sobre-projeto">
                         <div class="titulo">
@@ -82,7 +88,7 @@
                     </div>
                 </div>
 
-                <div class="container-projeto">
+                <div class="container-projeto" data-aos="fade-left" data-aos-delay="500">
                     <div class="foto"><img src="assets/hdchost-dispositivos.png" alt="Mockup hDC Host"></div>
                     <div class="sobre-projeto">
                         <div class="titulo">
@@ -104,7 +110,7 @@
                     </div>
                 </div>
 
-                <div class="container-projeto">
+                <div class="container-projeto" data-aos="fade-right" data-aos-delay="500">
                     <div class="foto"><img src="assets/cronometro-dispositivo.png" alt="Mockup Cronomêtro"></div>
                     <div class="sobre-projeto">
                         <div class="titulo">
@@ -127,7 +133,7 @@
                     </div>
                 </div>
 
-                <div class="container-projeto">
+                <div class="container-projeto" data-aos="fade-left" data-aos-delay="500">
                     <div class="foto"><img src="assets/calculadora-dispositivo.png" alt="Mockup Calculadora IMC"></div>
                     <div class="sobre-projeto">
                         <div class="titulo">
@@ -156,5 +162,7 @@
     <footer id="footer">
         <p> &copy; 2023 Renan Silva Cardoso</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
