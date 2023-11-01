@@ -1,0 +1,35 @@
+@import '../../scss/colors';
+@import '../../../styles.scss';
+
+mat-toolbar{
+    background-color: $brown;
+
+    .container-toolbar {
+        width: 1024px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .container-logo span{
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .container-btns {
+        color: #fff;
+        a {
+            color: #fff;
+            text-decoration: none;
+            transition: ease-in .4s;
+            padding: 10px;
+            margin-left: 5px;
+            font-size: 18px;
+
+            &:hover {
+                color: $light-beige
+            }
+        }
+    }
+}
