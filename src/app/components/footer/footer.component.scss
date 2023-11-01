@@ -1,0 +1,31 @@
+@import '../../scss/colors';
+@import '../../../styles.scss';
+
+footer {
+    background-color: $brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 1rem 0;
+
+
+    h2, p, fa-icon{
+        color: #fff;
+    }
+
+    fa-icon {
+        font-size: 20px;
+    }
+}
+
+.container {
+    width: 200px;
+}
+
+@media (min-width: 430px){
+    .container {
+        height: 135px;
+    }
+}
